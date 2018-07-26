@@ -1,0 +1,69 @@
+body {
+    background-color: lightblue;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+
+.stopwatch {
+    position: absolute;
+    margin: auto auto;
+    width: 550px;
+    height: 250px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 30px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.digit{
+    width: 55px;
+}
+
+.digit-space{
+    float: left;
+    padding: 10px 0px 10px 20px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.spacer{
+    width: auto;
+    height: 100px;
+}
+
+.controls{
+    margin: auto;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+button {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: 4px 4px 3px #888888;
+
+}
+
+.controls button{
+    background-color: #fff;
+    border: 2px solid black;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.controls button:hover {
+    background-color: #98bef0;
+    border: 2px solid #98bef0;
+    color: #fff;
+}
+
